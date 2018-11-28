@@ -1,0 +1,19 @@
+current directory: /home/kikluz/development/personal/rails/vwhub/vendor/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+/home/kikluz/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20181128-16249-1rkxmzy.rb extconf.rb
+creating Makefile
+
+current directory: /home/kikluz/development/personal/rails/vwhub/vendor/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/kikluz/development/personal/rails/vwhub/vendor/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/kikluz/development/personal/rails/vwhub/vendor/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20181128-16249-l3lohh/byebug
