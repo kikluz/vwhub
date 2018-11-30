@@ -1,7 +1,9 @@
 <h1>VWhub</h1>
 
 <% @posts.each do |post| %>
+<div class="row">
 	<%= image_tag post.image.url(:medium) %>
-	<br>
+<br>
 	<%= post.caption %>
+</div>
 <% end %>
